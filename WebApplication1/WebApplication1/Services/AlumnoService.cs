@@ -1,9 +1,17 @@
-﻿using WebApplication1.Models;
+﻿using WebApplication1.DAOs;
+using WebApplication1.Models;
 
 namespace WebApplication1.Services
 {
     public class AlumnoService
     {
+        string cadena = "workstation id=BaseMaxima.mssql.somee.com;packet size=4096;user id=Maxima1428_SQLLogin_1;pwd=si8gmykxal;data source=BaseMaxima.mssql.somee.com;persist security info=False;initial catalog=BaseMaxima;TrustServerCertificate=True";
+        AlumnoDAO alumnoDAO;
+        public AlumnoService()
+        {
+            alumnoDAO = new AlumnoDAO(cadena);
+        }
+        #region Sin persistencia
         private static List<Alumno> alumnos = new List<Alumno>()
         {
             new Alumno(){Nombre="Martincito", Id=001, LU=10, Nota=9},
@@ -12,43 +20,29 @@ namespace WebApplication1.Services
         };
         public List<Alumno> MostrarLista()
         {
-            return alumnos.OrderBy(o=> o.Nota).ToList();
+            return alumnoDAO.GetAll();
         }                         //le damos valor de nota a "o".
         public string MostrarCantidad()
         {
             string t = "cantidad alumnos en la lista: ";
             return t + alumnos.Count;
         }
-        public Alumno UpDate(Alumno mod)
+        public bool UpDate(Alumno mod)
         {
-            var a = BuscarPorId(mod.Id);
-            if(a != null)
-            {
-                a.Nombre = mod.Nombre;
-                a.Nota = mod.Nota;
-                a.LU = mod.LU;
-            }
-            return a;
+            return alumnoDAO.UpDate(mod);
         }
-        public Alumno BuscarPorId(int id)
+        public Alumno? BuscarPorId(int id)
         {
-            var alumno = alumnos.Where(a => a.Id == id).FirstOrDefault();//me da la primer coincidencia en la lista de alumnos con ese id
-            if (alumno != null)
-            {
-                return alumno;
-            }
-            return null;
+            return alumnoDAO.GetById(id);
         }
-        public Alumno CrearAlumno(Alumno a)
+        public Alumno? CrearAlumno(Alumno a)
         {
-            alumnos.Add(a);
-            return a;
+            return alumnoDAO.Insert(a);
         }
-        public Alumno EliminarAlumno(int lu)
+        public bool EliminarAlumno(int id)
         {
-            var alumno = alumnos.Where(a => a.LU == lu).FirstOrDefault();
-            alumnos.Remove(alumno);
-            return alumno;
+            return alumnoDAO.Delete(id);
         }
     }
+    #endregion
 }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/imagenes/laratonaysucasa2.png" />
 </head>
 <body>
     <header>
@@ -20,23 +21,41 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="https://localhost:7217/swagger/index.html">Swagger</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Alumno" asp-action="Create">Crear nuevo</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Alumno" asp-action="Index">Listado</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Alumno" asp-action="Delete">Eliminar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Alumno" asp-action="Edit">Editar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="http://localhost:5086/swagger/index.html">Swagger</a>
+                        </li>
+                        
                     </ul>
                 </div>
+                
             </div>
         </nav>
     </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    </div>
+    <div class="text-center">
+        <img src="~/imagenes/laratonaysucasa2.png" alt="Descripción de la imagen" style="margin: 50px;">
     </div>
 
     <footer class="border-top footer text-muted">
