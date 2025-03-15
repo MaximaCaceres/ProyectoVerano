@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Controllers;
 using WebApplication1.Models;
 using WebApplication1.Services;
 
@@ -7,18 +8,29 @@ namespace WebApplication1.ViewControllers
 {
     public class AlumnoController : Controller
     {
-        // GET: AlumnoController
-        static AlumnoService servicio = new AlumnoService();
-        public ActionResult Index()
+
+        private readonly ILogger<HomeController> _logger;
+
+        private readonly AlumnoService servicio;
+
+        public AlumnoController(ILogger<HomeController> logger, AlumnoService alumnoService)
         {
-            return View(servicio.MostrarLista());
+            _logger = logger;
+            servicio = alumnoService;
         }
 
-        /*/ GET: AlumnoController/Details/5 
-        public ActionResult Details(int id)
+        public async Task<ActionResult>Index()
         {
-            return View();
-        }*/
+            var alumno = await servicio.GettAll();
+            return View(alumno);
+        }
+
+        //GET: AlumnoController/Details/5 
+        public async Task<ActionResult>Details(int id)
+        {
+            var alumno = await servicio.GetById(id);
+            return View(alumno);
+        }
 
         // GET: AlumnoController/Create
         public ActionResult Create()
@@ -29,11 +41,11 @@ namespace WebApplication1.ViewControllers
         // POST: AlumnoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Alumno nuevo)
+        public async Task<ActionResult> Create(Alumno nuevo)
         {
             try
             {
-                servicio.CrearAlumno(nuevo);
+                await servicio.CrearNuevo(nuevo);
                 return RedirectToAction(nameof(Index));
 
             }
@@ -43,21 +55,22 @@ namespace WebApplication1.ViewControllers
                 return View();
             }
         }
-        
+
         // GET: AlumnoController/Edit/5
         public ActionResult Edit(int id)
-        {      
-            return View(servicio.BuscarPorId(id));
+        {
+            
+            return View();
         }
 
         // POST: AlumnoController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Alumno nuevo)
+        public async Task<ActionResult> Edit(Alumno nuevo)
         {
             try
             {
-                servicio.UpDate(nuevo);
+                await servicio.Actualizar(nuevo);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -70,17 +83,17 @@ namespace WebApplication1.ViewControllers
         public ActionResult Delete(int lu)
         {
             
-            return View(servicio.EliminarAlumno(lu));
+            return View();
         }
 
         // POST: AlumnoController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int lu, Alumno eliminado)
+        public async Task<ActionResult> Delete(int lu, Alumno eliminado)
         {
             try
             {
-                servicio.EliminarAlumno(lu);
+                await servicio.Eliminar(lu);
                 return RedirectToAction(nameof(Index));
             }
             catch

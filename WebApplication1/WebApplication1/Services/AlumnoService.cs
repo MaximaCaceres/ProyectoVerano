@@ -1,48 +1,42 @@
-﻿using WebApplication1.DAOs;
+﻿using WebApplication1.DAOs.MSSDAOs;
 using WebApplication1.Models;
 
 namespace WebApplication1.Services
 {
+    //Recibe los datos del modelo (ALUMNO), aplica la lógica de negocio y puede
+    //interactuar con el AlumnoDAO para persistir los cambios.
     public class AlumnoService
     {
-        string cadena = "workstation id=BaseMaxima.mssql.somee.com;packet size=4096;user id=Maxima1428_SQLLogin_1;pwd=si8gmykxal;data source=BaseMaxima.mssql.somee.com;persist security info=False;initial catalog=BaseMaxima;TrustServerCertificate=True";
-        AlumnoDAO alumnoDAO;
-        public AlumnoService()
+        readonly private AlumnoMSSDAO _AlumnoDao;
+
+        public AlumnoService(AlumnoMSSDAO AlumnoDao)//intectamos dependencias.
         {
-            alumnoDAO = new AlumnoDAO(cadena);
+            _AlumnoDao = AlumnoDao;
         }
-        #region Sin persistencia
-        private static List<Alumno> alumnos = new List<Alumno>()
+
+        async public Task<List<Alumno>> GettAll()
         {
-            new Alumno(){Nombre="Martincito", Id=001, LU=10, Nota=9},
-            new Alumno(){Nombre="Maxima", Id = 002, LU=17771, Nota = 8},
-            new Alumno(){Nombre="Harahel", Id = 003, LU=17773, Nota = 8.5}  
-        };
-        public List<Alumno> MostrarLista()
-        {
-            return alumnoDAO.GetAll();
-        }                         //le damos valor de nota a "o".
-        public string MostrarCantidad()
-        {
-            string t = "cantidad alumnos en la lista: ";
-            return t + alumnos.Count;
+            return await _AlumnoDao.GetAll();
         }
-        public bool UpDate(Alumno mod)
+
+        async public Task<Alumno?> GetById(int id)
         {
-            return alumnoDAO.UpDate(mod);
+            return await _AlumnoDao.GetByKey(id);
         }
-        public Alumno? BuscarPorId(int id)
+
+        async public Task CrearNuevo(Alumno objeto)
         {
-            return alumnoDAO.GetById(id);
+            await _AlumnoDao.Insert(objeto);
         }
-        public Alumno? CrearAlumno(Alumno a)
+
+        async public Task Actualizar(Alumno objeto)
         {
-            return alumnoDAO.Insert(a);
+            await _AlumnoDao.Update(objeto);
         }
-        public bool EliminarAlumno(int id)
+
+        public async Task<bool> Eliminar(int LU)
         {
-            return alumnoDAO.Delete(id);
+            return await _AlumnoDao.Delete(LU);
         }
     }
-    #endregion
 }

@@ -21,6 +21,9 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
@@ -39,7 +42,10 @@
                             <a class="nav-link text-white" asp-area="" asp-controller="Alumno" asp-action="Edit">Editar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="http://localhost:5086/swagger/index.html">Swagger</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Alumno" asp-action="Details">Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="https://noesunavacacualquiera.somee.com/swagger">Swagger</a>
                         </li>
                         
                     </ul>

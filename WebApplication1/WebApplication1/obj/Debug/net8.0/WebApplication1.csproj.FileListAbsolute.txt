@@ -261,7 +261,6 @@ C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
@@ -309,3 +308,4 @@ C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\bin
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Usuario\source\repos\ProyectoVerano\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

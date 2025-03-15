@@ -12,18 +12,17 @@ namespace WinFormsApp1.ClientService
 {
     public class AlumnoClientServices
     {
-        AlumnoService Service = new AlumnoService();
         async public Task<List<Alumno>> GetAll()
         {
-            var alumnos = new List<Alumno>();
+            var alumnos = new List<Alumno>();//HACE LA SOLICITUD.
 
             string url = "https://localhost:7217/api/Alumno";
 
             var cliente = new HttpClient();
 
-            var response = await cliente.GetAsync(url);
+            var response = await cliente.GetAsync(url);//Se va a buscar un metodo httpGet al alumnoController.
 
-            if (response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)//TRATA LA RESPUESTA.
             {
                 string json = await response.Content.ReadAsStringAsync();
 

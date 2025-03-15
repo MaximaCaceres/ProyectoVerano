@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\views\\alumno\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\alumno\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\views\\alumno\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\alumno\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\daos\\mssdaos\\alumnomssdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\daos\\mssdaos\\alumnomssdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\services\\alumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\alumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\daos\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\daos\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\apicontrollers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\apicontrollers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\proyectoverano\\webapplication1\\webapplication1\\daos\\mssdaos\\conexionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC9C636-59C6-4E7D-A08B-A8D35C1987AF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\daos\\mssdaos\\conexionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-17T22:34:53.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswC8AAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-17T21:22:35.874Z",
+              "WhenOpened": "2025-03-14T01:13:06.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlumnoService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Services\\AlumnoService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Services\\AlumnoService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Services\\AlumnoService.cs",
-              "RelativeToolTip": "WebApplication1\\Services\\AlumnoService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T20:18:54.224Z",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Views\\Alumno\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Alumno\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Views\\Alumno\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Alumno\\Details.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T01:08:41.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AlumnoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\DAOs\\AlumnoDAO.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\DAOs\\AlumnoDAO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\DAOs\\AlumnoDAO.cs",
-              "RelativeToolTip": "WebApplication1\\DAOs\\AlumnoDAO.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAA1wGAAAAAsAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Views\\Alumno\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Alumno\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Views\\Alumno\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Alumno\\Delete.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T00:37:43.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Views\\Alumno\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Alumno\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Views\\Alumno\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Alumno\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T00:05:26.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlumnoService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Services\\AlumnoService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\AlumnoService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\Services\\AlumnoService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\AlumnoService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T19:42:33.69Z",
+              "WhenOpened": "2025-03-13T23:33:25.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\ApiControllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ApiControllers\\AlumnoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\ApiControllers\\AlumnoController.cs",
+              "RelativeToolTip": "WebApplication1\\ApiControllers\\AlumnoController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T23:17:37.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlumnoMSSDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\DAOs\\MSSDAOs\\AlumnoMSSDAO.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DAOs\\MSSDAOs\\AlumnoMSSDAO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\DAOs\\MSSDAOs\\AlumnoMSSDAO.cs",
+              "RelativeToolTip": "WebApplication1\\DAOs\\MSSDAOs\\AlumnoMSSDAO.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAswGwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T23:04:53.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConexionString.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\DAOs\\MSSDAOs\\ConexionString.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DAOs\\MSSDAOs\\ConexionString.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoVerano\\WebApplication1\\WebApplication1\\DAOs\\MSSDAOs\\ConexionString.cs",
+              "RelativeToolTip": "WebApplication1\\DAOs\\MSSDAOs\\ConexionString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T23:03:24.923Z",
               "EditorCaption": ""
             }
           ]
